@@ -27,11 +27,16 @@
 		h1,h2{
 			text-transform: uppercase;
 			color: #9b9380;
-			font-family: 'Caveat', cursive;
+			
 			transition: .5s;
 		}
 		h2{
 			margin-bottom: 10px;
+			font-family: 'Roboto';
+			font-size: 
+		}
+		h1{
+			font-family: 'Caveat', cursive;
 		}
 		h1:hover{
 			transform: scale(2);
@@ -41,6 +46,12 @@
 			transform: scale(2);
 			font-size:1.2em;
 		}
+		button{
+			font-size: .5em;
+			font-family: 'Arial';
+			color: #9b9380;
+
+		}
 		.content-wrap{
 			width: 50vw;
 			color: #9b9380;
@@ -48,10 +59,11 @@
 			font-family: 'Roboto',sans-serif;
 			margin-bottom: 20px;
 			background-color: #081c5c;
-			transition: transform .5s .25s ease-in-out, background-color 5s ease-in;
+			transition: transform 1s .25s ease-in-out, background-color 2s ease-in-out;
+			border-radius: 5%;
 		}
 		.content-wrap:hover{
-			transform: /*translateY(200px)*/ scale(2);
+			transform: /*translateY(200px)*/ scale(1.5);
 			background-color: white;
 
 		}
@@ -64,6 +76,9 @@
 		<h2>by Nujabes, feat. Cise Star, Akin</h2>
 	</header>
 	<main>
+		<button onclick="playAudio()" type="button">Play Audio</button>
+  		<!-- similar to playAudio() function, except it pauses the audio -->
+  		<button onclick="pauseAudio()" type="button">Pause Audio</button>
 		<div>
 		<!-- here's the main part of the lyrics -->
 			<p>
@@ -145,6 +160,27 @@
 				</div>
 			</p>
 		</div>
+
+		<audio id="myAudio">
+    <!-- replace horse.ogg/horse.mp3 with url to your sound file -->
+    <source src="Nujabes - Feather.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- playAudio() is the JavaScript function that tells the browser to play your audio file. The onclick attribute tells the browser to run the playAudio() function when a user clicks the html element with the onclick attribute -->
+  
+  <!-- onclick attribute works on other elements too, not just buttons. However, if it's a text element you wont see an arrow cursor. You can determine what type of arrow cursor shows up with the css cursor declaration -->
+
+  <!-- The script tag lets your browser know all of the code inside of it is JavaScript and not HTML. If you're going to put the script tag in your html, it should be the very last element inside the html body tag, allowing your whole page to load before it tries to run any JavaScript functions. -->
+  <script>
+    // "myAudio" should be the ID name you assigned to your html audio element
+    var audio = document.getElementById("myAudio");
+    function playAudio() {
+      audio.play();
+    }
+    function pauseAudio() {
+      audio.pause();
+    }
+	</script>
 	</main>
 </body>
 </html>

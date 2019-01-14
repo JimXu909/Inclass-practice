@@ -2,29 +2,41 @@ body{
 
 }
 
+.yellow:hover{
+	
+	animation-play-state: running;
+}
 .yellow{
 	/*the part for basic attribute*/
 	width: 10px;
 	height: 400px;
 	margin: 50px 40px;
-
 	background-color: yellow;
 	display: inline-block;
-}
-.yellow:hover{
 	/*the part for animation*/
-	animation-name: slide;
-	animation-duration: 3s;
-	animation-timing-function: ease-in;
-	/*animation-iteration-count: 2;*/ /*so the animation only play one time*/
+	/*animation-name:slide;*/
+	animation-delay: .5s;
+	/*animation-duration: 1s;
+	animation-timing-function: ease-in-out;*/
+	animation-direction: alternate;
+	animation-iteration-count: infinite; 
+/*so the animation play infite*/
+	animation: slide 1s ease-in-out infinite alternate
+	,fadein linear 3s infinite alternate;
+	animation-play-state:paused;
+	
 }
 
-@keyframes slide{
+@keyframes slide{ /*the animation for sliding motion*/
 	from{
 		transform: translateX(0);}
 	to{
-		transform:translateX(100px);
+		transform:translateX(90px);
 	}
+}
+@keyframes fadein{
+	0%{background-color: yellow;}
+	50%{background-color: red;}
 
-	}
+	100%{background-color: blue;}
 }
