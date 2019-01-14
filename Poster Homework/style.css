@@ -1,0 +1,28 @@
+body{
+
+}
+
+.yellow{
+	/*the part for basic attribute*/
+	width: 10px;
+	height: 200px;
+	margin: 50px 50px;
+
+	background-color: yellow;
+
+	/*the part for animation*/
+	animation-name: slide;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 2; /*so the animation only play one time*/
+}
+
+@keyframes slide{
+	from{
+		transform: translateX(0);}
+	to{
+		transform:translateX(900px);
+	}
+
+	}
+}
