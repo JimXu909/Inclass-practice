@@ -5,23 +5,25 @@ body{
 .yellow{
 	/*the part for basic attribute*/
 	width: 10px;
-	height: 200px;
-	margin: 50px 50px;
+	height: 400px;
+	margin: 50px 40px;
 
 	background-color: yellow;
-
+	display: inline-block;
+}
+.yellow:hover{
 	/*the part for animation*/
 	animation-name: slide;
-	animation-duration: .5s;
+	animation-duration: 3s;
 	animation-timing-function: ease-in;
-	animation-iteration-count: 2; /*so the animation only play one time*/
+	/*animation-iteration-count: 2;*/ /*so the animation only play one time*/
 }
 
 @keyframes slide{
 	from{
 		transform: translateX(0);}
 	to{
-		transform:translateX(900px);
+		transform:translateX(100px);
 	}
 
 	}
