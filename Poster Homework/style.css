@@ -2,11 +2,16 @@ body{
 	/*display: flex;
 	flex-direction: column;
 */
+	background-color: #f2f2f2;
 }
 
-.yellow:hover{
-	
-	animation-play-state: running;
+.yellow{
+	transform: rotate(45deg);
+	width: 8px;
+	height: 900px;
+	margin: 0 70px;
+	background-color: yellow;
+	/*animation-play-state: running;*/
 }
 .rotate1{
 	transform: rotate(30deg);
@@ -16,13 +21,12 @@ div{
 	position: absolute;
 	/*float: left;*/
 }
-.yellow{
+section{
+	display: block;
+}
+.yellow:hover{
 	/*the part for basic attribute*/
-	transform: rotate(45deg);
-	width: 8px;
-	height: 900px;
-	margin: 0 70px;
-	background-color: yellow;
+	
 	/*display: inline-block;*/
 	/*the part for animation*/
 	
@@ -34,16 +38,25 @@ div{
 	animation-iteration-count: infinite; */
 
 /*so the animation play infite*/
-	/*animation: slide 1s ease-in-out infinite alternate
+	animation: slide 1s ease-in-out infinite alternate
 	,fadein linear 3s infinite alternate;
-	animation-play-state:paused;*/
+	/*animation-play-state:paused;*/
 	
+}
+.rectangle:hover{
+	animation:slides 1s ease-in-out infinite alternate
+	,fadein linear 3s infinite alternate ease-in-out;
+	transform: scale(1.5);
+}
+p:hover{
+	
+	transform: scale(1.5);
 }
 .rectangle{
 	width: 3em;
 	height: 6.5em;
 	transform: rotate(-45deg);
-
+	/*transition: transform 2s ease-in-out;*/
 }
 .red{
 	background-color: red;
@@ -156,13 +169,46 @@ div{
 	left: 45em;
 	top: 44em;
 }
-
-
+.p1{
+	position: absolute;
+	left: 1em;
+	top: 58em;
+}
+.p2{
+	position: absolute;
+	left: 15em;
+	top: 58em;
+}
+.p3{
+	position: absolute;
+	left: 29em;
+	top: 58em;
+}
+.p4{
+	position: absolute;
+	left: 43em;
+	top: 58em;
+}
+p{
+	display:block;
+	font-family: 'Roboto', sans-serif;
+	width: 20em;
+	height: 20em;
+	font-size: 20px;
+	transition: transform .5s ease-in-out;
+}
 @keyframes slide{ /*the animation for sliding motion*/
 	from{
 		transform: translateX(0) rotate(45deg);}
 	to{
 		transform:translateX(90px) rotate(45deg);
+	}
+}
+@keyframes slides{ /*the animation for sliding motion*/
+	from{
+		transform: translateX(0) rotate(-45deg);}
+	to{
+		transform:translateX(90px) rotate(-45deg);
 	}
 }
 @keyframes fadein{
