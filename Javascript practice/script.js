@@ -23,3 +23,29 @@ if (a==b){
 console.log("theNumbersMatch" +theNumbersMatch)
 
 var pens;
+
+var colorX =0;
+var colorY = 0;
+
+function getMouseCor(e){
+	// if (IE){
+	// 	colorX = event.clientX +document.body.scrollleft;
+	// 	colorY= event.clientY+document.body.scrollTop;
+	// }
+	// else{
+	var body=document.getElementsByTagName("body");
+	if (colorX<0) {colorX=0};
+	if (colorY<0){colorY=0};
+
+		colorX=e.pageX;
+		colorY=e.pageY;
+
+body[0].style.backgroundColor = "rgb(colorX,colorY,0)";
+	// }
+	
+	console.log(colorX);
+	console.log(colorY);
+	return true;
+}
+document.addEventListener("mouseover", getMouseCor);
+
