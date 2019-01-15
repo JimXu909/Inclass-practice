@@ -7,9 +7,19 @@ document.body.innerHTML
 
 var a;
 var b;
-var sum;
+var sum =a+b;
+var theNumbersMatch;
 
 
-sum = a + b;
+if (a==b){
+	theNumbersMatch = true;
+} else {
+	theNumbersMatch = false;
+}
 
+//The same as the Ternery operator below;
+// a==b? console.log("Match"):console.log("No match");
 
+console.log("theNumbersMatch" +theNumbersMatch)
+
+var pens;
