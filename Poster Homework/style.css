@@ -1,37 +1,168 @@
 body{
-
+	/*display: flex;
+	flex-direction: column;
+*/
 }
 
 .yellow:hover{
 	
 	animation-play-state: running;
 }
+.rotate1{
+	transform: rotate(30deg);
+
+}
+div{
+	position: absolute;
+	/*float: left;*/
+}
 .yellow{
 	/*the part for basic attribute*/
-	width: 10px;
-	height: 400px;
-	margin: 50px 40px;
+	transform: rotate(45deg);
+	width: 8px;
+	height: 900px;
+	margin: 0 70px;
 	background-color: yellow;
-	display: inline-block;
+	/*display: inline-block;*/
 	/*the part for animation*/
-	/*animation-name:slide;*/
-	animation-delay: .5s;
-	/*animation-duration: 1s;
+	
+	/*animation-delay: .5s;
+	animation-duration: 1s;
 	animation-timing-function: ease-in-out;*/
-	animation-direction: alternate;
-	animation-iteration-count: infinite; 
+
+	/*animation-direction: alternate;
+	animation-iteration-count: infinite; */
+
 /*so the animation play infite*/
-	animation: slide 1s ease-in-out infinite alternate
+	/*animation: slide 1s ease-in-out infinite alternate
 	,fadein linear 3s infinite alternate;
-	animation-play-state:paused;
+	animation-play-state:paused;*/
 	
 }
+.rectangle{
+	width: 3em;
+	height: 6.5em;
+	transform: rotate(-45deg);
+
+}
+.red{
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+}
+.black{
+	background-color: black;
+}
+
+.y1{
+	top: -15em;
+	left: 10em;
+
+}
+.y2{
+	left: 16em;
+	top: -9em;
+}
+.y3{
+	left: 22em;
+	top: -3em;
+}
+.y4{
+	left: 28em;
+	top: 3em;
+}
+.y5{
+	left: 34em;
+	top: 9em;
+}
+.y6{
+	left: 40em;
+	top: 15em;
+}
+.y7{
+	left: 46em;
+	top: 21em;
+}
+.r1{
+	top: 2em;
+	left: 27em;
+}
+.r2{
+	top: 14em;
+	left: 27em;
+}
+.r3{
+	top: 16em;
+	left: 37em;
+}
+.r4{
+	top: 23.5em;
+	left: 41.5em;
+}
+.r5{
+	top: 23.5em;
+	left: 53.3em;
+}
+.r6{
+	top: 31em;
+	left: 58em;
+}
+.bu1{
+	left: 13em;
+	top: 16em;
+}
+.bu2{
+	left: 25em;
+	top: 16em
+}
+.bu3{
+	left: 27em;
+	top: 26em;
+}
+.bu4{
+	left: 27em;
+	top: 38em;
+}
+.bu5{
+	left: 27em;
+	top: 50em;
+}
+.bu6{
+	left: 35em;
+	top: 54em;
+}
+.bk1{
+	left: 9em;
+	top: 20em;
+}
+.bk2{
+	left: 21em;
+	top: 20em;
+}
+.bk3{
+	left:25em;
+	top: 28em;
+}
+.bk4{
+	top: 25.5em;
+	left: 39.5em
+}
+.bk5{
+	left: 37em;
+	top: 40em;
+}
+.bk6{
+	left: 45em;
+	top: 44em;
+}
+
 
 @keyframes slide{ /*the animation for sliding motion*/
 	from{
-		transform: translateX(0);}
+		transform: translateX(0) rotate(45deg);}
 	to{
-		transform:translateX(90px);
+		transform:translateX(90px) rotate(45deg);
 	}
 }
 @keyframes fadein{
