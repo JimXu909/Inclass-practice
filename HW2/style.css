@@ -37,7 +37,10 @@ body{
 	font-size: 20px;
 	font-family: "Helvetica";
 	color: black;
+	
+	
 }
+
 
 
 
@@ -60,7 +63,8 @@ class and ids onwards*/
 	display: inline-block;
 	margin: 8px;
 	border-style: inset;
-
+	overflow: hidden;
+	text-overflow: clip;
 }
 
 .sqbox:nth-of-type(1){
