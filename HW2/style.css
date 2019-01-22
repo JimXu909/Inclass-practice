@@ -48,6 +48,11 @@ body{
 /*------------------------------------------------------
 class and ids onwards*/
 
+p{	
+	display: inline-block;
+	float: left;
+	
+}
 .bigwrap{
 
 }
@@ -68,52 +73,108 @@ class and ids onwards*/
 }
 
 .sqbox:nth-of-type(1){
-	font-size: 10px;
+	font-size: 2em;
 }
-.sqbox:nth-of-type(2){
-	font-size: 9px;
-	font-style: oblique; 
+.sqbox:nth-of-type(2n){
+	font-size: 2em;
+	font-style: oblique;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+
 }
 .sqbox:nth-of-type(3n ){
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 2em;
 	font-family: 'VT323', monospace;
 }
 
 .sqbox:nth-of-type(4n){
-	font-size: 5px;
+	font-size: 2em;
 	font-style: italic;
 	font-family: "Times New Roman";
 
 }
 .sqbox:nth-of-type(5n){
-	font-size: 8px;
+	font-size: 2em;
 	font-family: 'Roboto', sans-serif;
 }
 .sqbox:nth-of-type(6n){
-	font-size: 20px;
+	font-size: 2em;
 	font-family: 'Italianno', cursive;
 }
 
 .sqbox:nth-of-type(7n){
-	font-size: 10px;
+	font-size: 2em;
 	font-family: "Arial";
 	font-style: italic;
 }
+.sqbox:nth-of-type(8n){
+	font-size: 2em;
+	font-family: 'Staatliches', cursive;
+}
+.sqbox:nth-of-type(9n){
+	font-size: 2em;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	
+}
+.sqbox:nth-of-type(10n){
+	font-size: 2em;
+	font-family:'Coiny', cursive;
+	
+}
+.sqbox:nth-of-type(11n){
+	font-size: 2em;
+	font-family:  'Inconsolata', monospace;
+	
+}
+.sqbox:nth-of-type(12n){
+	font-size: 2em;
+	font-family:'Dosis', sans-serif;
+	
+}
+.sqbox:nth-of-type(13n){
+	font-size: 2em;
+	font-family: 'Indie Flower', cursive;
+	
+}
 
+.sqbox:nth-of-type(14n){
+	font-size: 2em;
+	font-family: 'Anton', sans-serif;
+	font-style: italic;
+}
+.sqbox:nth-of-type(15n){
+	font-size: 2em;
+	
+	font-style: italic;
+}
 
-
+.greeting{
+	font-family: 'Helvetica';
+	font-weight: bolder;
+	font-size: 5em;
+	position: absolute;
+	left: 35vw;
+	top: 30vh;
+	color: black;
+	line-height: 65px;
+	text-align: center;
+	text-decoration: none;
+}
+.greeting:hover{
+	color:grey;
+}
 
 
 /*-----------------------------------
 media query from now on*/
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 1100px)
 	{
 		.sqbox{
 			width: 18vw;
 			height: 18vw;
 			margin: 5px;
+
 		}
 
 
