@@ -1,0 +1,34 @@
+div{
+	
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+
+
+
+
+/*-----------------------------------
+class*/
+
+.middle{
+	margin: 0 auto;
+	width: 30vw;
+	
+}
+.bigboard{
+	width: 100px;
+    height: 200px;
+    background-color: #fff7e6;
+    border-right: 4px solid #eeeedd;
+
+}
+
+/*----------------------------------
+ID*/
+
+#woodbig{
+	perspective: 800px;
+}
