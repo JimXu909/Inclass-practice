@@ -1,7 +1,26 @@
 div{
 	
-	display: inline-block;
+	
 	text-align: center;
+}
+button{
+	width: 10px;
+    height:16px;
+    background: #6da89d;
+    border-radius: 50%;
+    margin-right: 13vw;
+    border: solid 1px #7ebcbc;
+
+}
+button:hover{
+	background-color: #6c8e7f;
+}
+button:active{
+	transform: translateY(4px);
+}
+button:focus {
+    outline: none;
+    
 }
 
 
@@ -13,22 +32,91 @@ div{
 /*-----------------------------------
 class*/
 
+.buttons{
+	margin-top: 10px;
+	margin-bottom: 10vh;
+}
 .middle{
-	margin: 0 auto;
-	width: 30vw;
-	
+	margin: auto;
+	width: 50vw;
 }
 .bigboard{
-	width: 100px;
+	width: 0px;
     height: 200px;
-    background-color: #fff7e6;
-    border-right: 4px solid #eeeedd;
-
+    display: inline-block;
+    
+    border-top: 10px solid transparent ;
+  	border-right: 80px solid  #b2e0a8;
 }
+.hugeboard{
+	width: 150px;
+    height: 200px;
+    display: inline-block;
+    background-color: #ceefb1;
+}
+.triangle{
+	width: 0px;
+  	height:0;
+
+  	border-top: 100px solid #d1c8c4;
+  	border-right: 400px solid transparent;
+}
+
+.stick{
+	display: inline-block;
+	height: 300px;
+	width: 5px;
+	border-radius: 10px;
+	background-color: #626972;
+}
+.stick2{
+	display: inline-block;
+	height: 280px;
+	width: 5px;
+	border-radius: 10px;
+	background-color: #626972;
+}
+.stick3{
+	display: inline-block;
+	height: 270px;
+	width: 5px;
+	border-radius: 10px;
+	background-color: #626972;
+}
+.stick4{
+	display: inline-block;
+	height: 260px;
+	width: 5px;
+	border-radius: 10px;
+	background-color: #626972;
+}
+
 
 /*----------------------------------
 ID*/
 
 #woodbig{
-	perspective: 800px;
+	
 }
+
+
+@keyframes colorchange{
+	from{background-color: #6da89d;}
+	to{
+		background-color: #6c8e7f;
+	}
+
+}
+@keyframes smoke{
+	0%{
+
+	}
+		;
+}
+
+
+
+
+
+
+
