@@ -1,45 +1,72 @@
-h2{
-	font-size: 10px;
-	border: 2px solid black;
-	padding: 10px;
-	display: block;
-	width: 50vw;
-	margin: auto;
-}
-
 body{
-	/*background: black;*/
-	color: #628001;
+	height: 24000px;
+	background-color: black;
+	color: white;
+}
+p{
+	
+	color: white;
 	text-align: center;
-	margin: 0 auto;
-	font-family: 'Oswald';
+	
 }
 
-h1{
-	/*font-family: 'Cinzel';*/
-	width: 1em;
-	height: 3em;
-	margin: auto;
-	padding: 1em;
-	/*border: 2px solid black;*/
-	display: inline-block;
-	margin-top: 10px;
-	margin-bottom: 10px;
+
+
+/*-------------------------------------
+all the classes go under here*/
+
+.title{
+	font-family: 'Anton', sans-serif;	
+	font-weight: 50px;
+	font-size: 150px;
+	line-height: 120px;
+
 }
-a{
-	color: #5ebeb9;
-	text-decoration: none;
-	/*font-family: 'Oswald';*/
-	font-weight: 400;
+.title1{
+	border: solid black 10px;
+	position: fixed;
+	left: 42vw;
+	top: 5vh;
+	text-align: center;
 }
-a:hover{
-	color: black;
+.arrow{
+	position: fixed;
+	left: 42vw;
+	top: 25vh;
 }
 
-.round{
-	border-radius: 50%;
+.title2{
+	position: absolute;
+	left: 38vw;
+	top: 10000px;
 }
-.animation3{
-	width: 20vw;
-	height: 20vw;
+.title3{
+	position: absolute;
+	left: 10vw;
+	top: 16000px;
 }
+
+/*asdhfafa;ofjeojfaew
+ID GOES HERE*/
+#leaves{
+	width: 100vw;
+	
+	
+}
+
+#layout{
+	position: absolute;
+	top: 12000px;
+	left: 10vw;
+	width: 78vw;
+	height: 100vh;
+}
+
+
+
+
+
+
+
+
+

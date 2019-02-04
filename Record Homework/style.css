@@ -1,104 +1,60 @@
 div{
-	
-	
 	text-align: center;
 }
-button{
-	width: 10px;
-    height:16px;
-    background: #6da89d;
-    border-radius: 50%;
-    margin-right: 13vw;
-    border: solid 1px #7ebcbc;
 
+body{
+	background-color: #fffcfc;
+	height: 3000px;
 }
-button:hover{
-	background-color: #6c8e7f;
-}
-button:active{
-	transform: translateY(4px);
-}
-button:focus {
-    outline: none;
-    
-}
-
-
-
-
-
-
 
 /*-----------------------------------
 class*/
-
-.buttons{
-	margin-top: 10px;
-	margin-bottom: 10vh;
-}
-.middle{
-	margin: auto;
-	width: 50vw;
-}
-.bigboard{
-	width: 0px;
-    height: 200px;
-    display: inline-block;
-    
-    border-top: 10px solid transparent ;
-  	border-right: 80px solid  #b2e0a8;
-}
-.hugeboard{
-	width: 150px;
-    height: 200px;
-    display: inline-block;
-    background-color: #ceefb1;
-}
-.triangle{
-	width: 0px;
-  	height:0;
-
-  	border-top: 100px solid #d1c8c4;
-  	border-right: 400px solid transparent;
-}
-
-.stick{
+.scroll{
+	font-family: "Futura",bold;
+	font-size:80px;
 	display: inline-block;
-	height: 300px;
-	width: 5px;
-	border-radius: 10px;
-	background-color: #626972;
+	position: fixed;
+	margin-left: 25vw;
+	margin-top: 30vh;
 }
-.stick2{
-	display: inline-block;
-	height: 280px;
-	width: 5px;
-	border-radius: 10px;
-	background-color: #626972;
-}
-.stick3{
-	display: inline-block;
-	height: 270px;
-	width: 5px;
-	border-radius: 10px;
-	background-color: #626972;
-}
-.stick4{
-	display: inline-block;
-	height: 260px;
-	width: 5px;
-	border-radius: 10px;
-	background-color: #626972;
-}
-
-
-/*----------------------------------
-ID*/
-
-#woodbig{
+.aug18{
 	
+	position: fixed;
+	font-size: 40px;
+	left:10px;
+	top: 39vh;
+	font-family: "futura",bold;
+}
+.aug18des{
+	
+	position: fixed;
+	font-size: 15px;
+	left:10px;
+	top: 57vh;
+	font-family: "Arial";
 }
 
+.toword{
+	position: fixed;
+	font-size: 40px;
+	left:10px;
+	top: 43vh;
+	font-family: "futura",bold;
+}
+.aug19{
+	position: fixed;
+	font-size: 40px;
+	left:10px;
+	top: 47vh;
+	font-family: "futura",bold;
+}
+.animation{
+	z-index: -1;
+	margin: 20vh -20vw;
+	width: 400px;
+	height: 400px;
+	position: fixed;
+}
 
 @keyframes colorchange{
 	from{background-color: #6da89d;}

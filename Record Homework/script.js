@@ -1,21 +1,56 @@
-$("button:first").click(function(){
-	$(".stick2").animate({left: 200}, 1000, "swing");
-	console.log("hello");
-		
-	
-})
-$(".button1").click(function(){
-	
-	$(".stick2").animate({right: 200}, 1000, "swing");
-	console.log("2nd button clicked");
-		
-	
-})
-$(".button2").click(
-	function(){
-	$(".stick2").css({"left":"200px","position":"absolute"});
-	console.log("3rd button clicked");
-		
-		
-	
-})
+/*------------
+#1. scroll event listener
+#2. get scroll distance and 
+put it in a variable(global)
+#3. use scroll top distance to set
+an if argument, depends on different
+scrolling distance
+#4. use those functions to show and 
+hide(or toggle)
+
+*/
+// var first = 500 ;
+// var firstend = 1000;
+// var second= 1800;
+// var distance = $(window).scrollTop();
+// function firstfunction() {
+
+//     if (distance<first) {
+//         $("hugeboard,.aug18,.aug18des").hide(1000);}
+//     else {
+//     $(".hugeboard,.aug18,.aug18des").show(1000);
+//     console.log(distance);
+// }
+// };
+// window.addEventListener("scroll",firstfunction);
+
+$(document).scroll(function() {
+  var x = $(this).scrollTop();
+  if (x < 1000) {
+    $(".scroll").fadeIn();
+} 
+  else {
+    $('.scroll').fadeOut();
+  }
+});
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y >= 800) {
+    $(".animation,.aug18des,.aug18,.aug19,.toword").fadeIn();
+} 
+	else {
+    $('.animation,.aug18des,.aug18,.aug19,.toword').fadeOut();
+  }
+});
+
+
+
+
+
+
+
+
+
+
+

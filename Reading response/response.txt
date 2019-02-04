@@ -1,0 +1,19 @@
+
+Reading#1 What is code is more like a information stack sheet that is filled with topics about computers and codes. I like most of the topic because the author is clear in the way he delivers the message using stats and accurate references. For example, I like the parts where he talked about javascript and how it started out from a language not so widely used into eventually a language used everywhere.
+
+Reading#2 And for the article by Frank Chimero, like what other people has pointed out, I think the analogy to the use of plastic is an interesting one. and I enjoy reading better than "what is code" because the website is designed with more dynamic~
+
+Reading#3 Vernacular Web was an experience just to read through the entire essay. The website itself has been a combination some classic yet unfortunate nostalgia. Just looking at the sprite, the shiny arrow signs and construction gif gave me the shiver and the memory of bad graphics and slow loading speed in the old time. But the reading is definitely very well-written and covered many interesting information from the cabinets of old times(only about 20 years ago tho).
+
+Reading#4Jodi's Infrastructure. I would say it's more of an art critic than a report about websites and coding. I don't think this kind of art is interesting for me as a human beings. Jodi's art did conclude the contribution those glyphs adds to the expressiveness of typing. And I would disagree that it is a kind of machine art, because machine wouldn't be able to read those unicode. Instead, a good line of code would really be an art for them.
+
+
+Reading#5 Capitalism vs. Privacy by Samuel Earle;
+This essay is an earnest yet scary report(or a record) of the inclination of the gathering of personal information in the past couple of centuries. It's a known fact that the governments are using datas from big tech companies and that the companies are using our data to make money. However, I don't think it's necessarily a bad thing for tech companies to collect data, but there should be a restriction and a recognition part in consumer's end to whether or not releasing those data(eg.cookies).
+
+Reading#6 Critical Atlas of Internet by Louise Drulhe;
+I like the way this designer present the entire site. The graphs do get a little bit confuing to look at after awhile but overall very clear representation. I do think the second model(two cones) is the closest to my imagination of how internet changes the distance between reality and code world.
+
+Reading#7 New Clues by Doc Searls and David Weinberger;
+The article started out with a promising tone that its going to prove to the readers that for the first time in history, the people, the horder, us have the power to impact a collective entity. While the educational introduction seems to suggest that we have the power to impact things in internet against "the Marauders" of the internet. The overly constant appearance of advertisements on the page including the fixed footer which indicate how many "free articles" I have for this month really made me question the credibility of the article. 
+The concepts and pointers offered here is hopeful but rather useless since they are obvious in many ways. And it seemed that most of the suggestions falls on the same theme of "empowerment of the individual". It's as if our generation hasn't been told enough times how "special" we are. Internet is not as free of a space as we think it is, and what it should be. The dominant companies are getting bigger and increasingly commercialized. It's a undeniable tide that we are falling into prey against the big company. Although there's lots of things said in vain in the article, I like that it gives a sense of power and hope to the majority of the audience, which could be great in the long run. 
