@@ -36,9 +36,9 @@ all the classes go under here*/
 }
 
 .title2{
-	position: absolute;
+	position: fixed;
 	left: 38vw;
-	top: 10000px;
+	top: 10vh;
 }
 .title3{
 	position: absolute;
@@ -60,12 +60,57 @@ ID GOES HERE*/
 	left: 10vw;
 	width: 78vw;
 	height: 100vh;
+	z-index: 0;
+
 }
 
+#project1{
+	position: absolute;
+	top: 12080px;
+	right: 15vw;
+	width: 15vw;
+}
 
+#project2{
+	position: absolute;
+	top: 12080px;
+	left: 12vw;
+	width: 30vw;
+}
+#project3{
+	position: absolute;
+	top: 12510px;
+	right: 18vw;
+	width: 25vw;
+}
+#exercise1{
+	position: absolute;
+	top: 12110px;
+	right: 41vw;
+	width: 15vw
+}
+#reading{
 
-
-
+	position: absolute;
+	top: 12520px;
+	left: 40vw;
+	width: 10vw
+}
+#project1:hover{
+	transform: scale(1.2);
+}
+#project2:hover{
+	transform: scale(1.2);
+}
+#project3:hover{
+	transform: scale(1.2);
+}
+#exercise1:hover{
+	transform: scale(1.2);
+}
+#reading:hover{
+	transform: scale(1.2);
+}
 
 
 

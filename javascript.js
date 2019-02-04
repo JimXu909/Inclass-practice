@@ -1,6 +1,6 @@
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y >8000) {
+  if (y >6000) {
     $(".title1").fadeOut();
 } 
   else {
@@ -11,10 +11,11 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var x = $(this).scrollTop();
-  if (x >9917) {
-    $(".title2").css("position","fixed");
-} 
-  
+  if (x < 11000 && x >8000) {
+    $(".title2").fadeIn();
+  }
+  else {
+    $(".title2").fadeOut();  
+  }
 });
-
 
