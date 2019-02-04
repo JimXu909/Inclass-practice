@@ -6,7 +6,12 @@ body{
 	background-color: #fffcfc;
 	height: 3000px;
 }
+a{
+	text-decoration: none;
+	color: white;
+	margin-bottom: 0;
 
+}
 /*-----------------------------------
 class*/
 .scroll{
@@ -14,7 +19,7 @@ class*/
 	font-size:80px;
 	display: inline-block;
 	position: fixed;
-	margin-left: 25vw;
+	margin-left: 40vw;
 	margin-top: 30vh;
 }
 .aug18{
@@ -50,7 +55,7 @@ class*/
 }
 .animation{
 	z-index: -1;
-	margin: 20vh -20vw;
+	margin: 20vh -10vw;
 	width: 400px;
 	height: 400px;
 	position: fixed;

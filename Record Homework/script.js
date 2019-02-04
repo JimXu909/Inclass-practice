@@ -33,7 +33,12 @@ $(document).scroll(function() {
     $('.scroll').fadeOut();
   }
 });
-
+$(document).ready(function() {
+  var x = $(this).scrollTop();
+  if (x < 6000) {
+    $(".scroll,.animation,.aug18des,.aug18,.aug19,.toword").hide();
+  }
+});
 $(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y >= 800) {

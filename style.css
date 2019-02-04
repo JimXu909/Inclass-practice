@@ -1,5 +1,5 @@
 body{
-	height: 24000px;
+	height: 20000px;
 	background-color: black;
 	color: white;
 }
@@ -11,7 +11,13 @@ p{
 }
 
 
-
+a{
+	text-decoration:italic;
+	color: white;
+}
+a:hover{
+	color: grey;
+}
 /*-------------------------------------
 all the classes go under here*/
 
@@ -41,11 +47,20 @@ all the classes go under here*/
 	top: 10vh;
 }
 .title3{
-	position: absolute;
+	position: fixed;
 	left: 10vw;
-	top: 16000px;
+	top: 10vh;
 }
 
+.introduction{
+	position: fixed;
+	left: 30vw;
+	top: 50vh;
+	width: 30vw;
+	height: 30vh
+	margin: auto;
+	display: flex;
+}
 /*asdhfafa;ofjeojfaew
 ID GOES HERE*/
 #leaves{
@@ -79,7 +94,7 @@ ID GOES HERE*/
 }
 #project3{
 	position: absolute;
-	top: 12510px;
+	top: 12515px;
 	right: 18vw;
 	width: 25vw;
 }
@@ -87,7 +102,19 @@ ID GOES HERE*/
 	position: absolute;
 	top: 12110px;
 	right: 41vw;
+	width: 15vw;
+}
+#exercise2{
+	position: absolute;
+	top: 12350px;
+	right: 41vw;
 	width: 15vw
+}
+#exercise3{
+	position: absolute;
+	top: 12530px;
+	left: 15vw;
+	width: 20vw
 }
 #reading{
 
@@ -96,6 +123,7 @@ ID GOES HERE*/
 	left: 40vw;
 	width: 10vw
 }
+
 #project1:hover{
 	transform: scale(1.2);
 }
@@ -106,6 +134,12 @@ ID GOES HERE*/
 	transform: scale(1.2);
 }
 #exercise1:hover{
+	transform: scale(1.2);
+}
+#exercise2:hover{
+	transform: scale(1.2);
+}
+#exercise3:hover{
 	transform: scale(1.2);
 }
 #reading:hover{
