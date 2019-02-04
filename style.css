@@ -1,5 +1,5 @@
 body{
-	height: 20000px;
+	height: 14000px;
 	background-color: black;
 	color: white;
 }
@@ -68,58 +68,64 @@ ID GOES HERE*/
 	
 	
 }
+#leaveslastone{
+	width: 100vw;
+	
+	
+}
 
 #layout{
+	background-image: url("images/layout.png");
 	position: absolute;
-	top: 12000px;
-	left: 10vw;
-	width: 78vw;
-	height: 100vh;
+	top: 10000px;
+	
+	width: 30vw;
+	height: 40vh;
 	z-index: 0;
 
 }
 
 #project1{
 	position: absolute;
-	top: 12080px;
+	top: 10080px;
 	right: 15vw;
 	width: 15vw;
 }
 
 #project2{
 	position: absolute;
-	top: 12080px;
+	top: 10080px;
 	left: 12vw;
 	width: 30vw;
 }
 #project3{
 	position: absolute;
-	top: 12515px;
+	top: 10515px;
 	right: 18vw;
 	width: 25vw;
 }
 #exercise1{
 	position: absolute;
-	top: 12110px;
+	top: 10110px;
 	right: 41vw;
 	width: 15vw;
 }
 #exercise2{
 	position: absolute;
-	top: 12350px;
+	top: 10350px;
 	right: 41vw;
 	width: 15vw
 }
 #exercise3{
 	position: absolute;
-	top: 12530px;
+	top: 10530px;
 	left: 15vw;
 	width: 20vw
 }
 #reading{
 
 	position: absolute;
-	top: 12520px;
+	top: 10520px;
 	left: 40vw;
 	width: 10vw
 }
@@ -146,6 +152,24 @@ ID GOES HERE*/
 	transform: scale(1.2);
 }
 
+/*----------------------------
+media query*/
 
+@media only screen and (max-width: 375px) {
+  #leaves{
+  	width:100vh;
+  	margin-left: -40vw;
+  	transform: rotate(90deg);
+  }
+  .title{
+  	font-size: 120px;
+  	line-height: 25px;
+
+  }
+  .arrow{
+  	top: 11vh;
+  	left: 43.5vw;
+  }
+}
 
 

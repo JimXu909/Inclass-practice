@@ -1,17 +1,17 @@
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y >6000) {
-    $(".title1").fadeOut();
+  if (y >3810) {
+    $(".title1,.301e").fadeOut();
 } 
   else {
-    $('.title1').fadeIn();
+    $('.title1,.301e').fadeIn();
   }
   console.log(y);
 });
 
 $(document).scroll(function() {
   var x = $(this).scrollTop();
-  if (x < 11000 && x >8000) {
+  if (x < 9200 && x >5600) {
     $(".title2").fadeIn();
   }
   else {
@@ -22,7 +22,7 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var z = $(this).scrollTop();
-  if (z < 20000 && z >16000) {
+  if (z <= 14000 && z >12000) {
     $(".title3,.introduction").fadeIn();
   }
   else {
