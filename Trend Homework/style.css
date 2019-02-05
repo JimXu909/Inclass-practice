@@ -164,7 +164,18 @@ p{
 	color:grey;
 }
 
-
+.right{
+	line-height: 100px;
+	font-family: "Helvetica";
+	font-size: 10px;
+	position: fixed;
+	right: 10px;
+	text-align: right;
+	color: black;
+}
+.right:hover{
+	color: grey;
+}
 /*-----------------------------------
 media query from now on*/
 

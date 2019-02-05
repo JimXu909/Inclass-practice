@@ -8,9 +8,17 @@ body{
 }
 a{
 	text-decoration: none;
-	color: white;
-	margin-bottom: 0;
+	color: black;
+	position: fixed;
+	bottom: 10px;
+	left: 42vw;
+	font-family: "Futura",bold;
+	font-size:20px;
+	display: inline-block;
 
+}
+a:hover{
+	color: grey;
 }
 /*-----------------------------------
 class*/
@@ -60,23 +68,6 @@ class*/
 	height: 400px;
 	position: fixed;
 }
-
-@keyframes colorchange{
-	from{background-color: #6da89d;}
-	to{
-		background-color: #6c8e7f;
-	}
-
-}
-@keyframes smoke{
-	0%{
-
-	}
-		;
-}
-
-
-
 
 
 

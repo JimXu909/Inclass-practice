@@ -36,16 +36,16 @@ $(document).scroll(function() {
 $(document).ready(function() {
   var x = $(this).scrollTop();
   if (x < 6000) {
-    $(".scroll,.animation,.aug18des,.aug18,.aug19,.toword").hide();
+    $(".scroll,.animation,.aug18des,.aug18,.aug19,.toword,.amp").hide();
   }
 });
 $(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y >= 800) {
-    $(".animation,.aug18des,.aug18,.aug19,.toword").fadeIn();
+    $(".animation,.aug18des,.aug18,.aug19,.toword,.amp").fadeIn();
 } 
 	else {
-    $('.animation,.aug18des,.aug18,.aug19,.toword').fadeOut();
+    $('.animation,.aug18des,.aug18,.aug19,.toword,.amp').fadeOut();
   }
 });
 
