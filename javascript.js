@@ -35,7 +35,7 @@ $(document).scroll(function() {
 $(document).ready(function() {
   var a = $(this).scrollTop();
   if (a < 6000) {
-    $(".title2,.title1,.title3,.introduction,.links").hide();
+    $(".title2,.title1,.title3,.introduction").hide();
   }
 });
 
